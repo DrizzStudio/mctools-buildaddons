@@ -1,0 +1,28 @@
+{
+  "name": "mctools-buildaddons",
+  "version": "1.0.0",
+  "description": "One command to install the mctools-buildaddons AI skill (Minecraft Bedrock add-on builder) into Claude Code, Codex CLI, Gemini CLI, Cursor and other coding agents.",
+  "bin": {
+    "mctools-buildaddons": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skill",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "addon",
+    "ai",
+    "agent-skill",
+    "claude-code",
+    "codex",
+    "gemini-cli"
+  ],
+  "license": "MIT"
+}
